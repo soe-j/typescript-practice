@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:soe-j/typescript-practice.git",
   "author": "soe-j <7115203+soe-j@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
 }
