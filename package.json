@@ -7,5 +7,9 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^3.9.2"
+  },
+  "scripts": {
+    "go": "func() { tsc $1 && node ${1%ts}js; }; func"
+
   }
 }
